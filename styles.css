@@ -70,6 +70,37 @@ body {
     font-size: 1.5rem;
 }
 
-.first-name {
-    
+fieldset {
+    border: 0;
+}
+
+input {
+    width: 350px;
+    height: 30px;
+    border-radius: 5px;
+    font-size: 1.8rem;
+}
+
+
+.first, .third, .fifth {
+    padding-left: 2.3%;
+}
+
+.second, .fourth, .sixth {
+    padding-left: 10%;
+}
+
+.first, .second, .third,
+.fourth, .fifth, .sixth {
+    display: flex;
+    flex-direction: column;
+    padding-top: 1.7%;
+}
+
+button {
+    margin-top: 3.5%;
+    margin-left: 2.3%;
+    height: 3rem;
+    width: 10rem;
+    cursor: pointer;
 }
